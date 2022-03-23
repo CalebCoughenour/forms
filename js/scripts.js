@@ -3,7 +3,7 @@ $(document).ready(function() {
     event.preventDefault();
     const userNameInput = $("input#userName").val();
     const petsName = $("input#petsName").val();
-    const summerActivities = $("input#summerActivites").val();
+    const summerActivities = $("input#summerActivities").val();
 
     $(".userName").text(userNameInput);
     $(".petsName").text(petsName);
