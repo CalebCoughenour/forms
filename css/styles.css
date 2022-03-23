@@ -5,3 +5,11 @@
 #letter-received {
   display: none;
 }
+
+.btn {
+  border: 2px solid black;
+  color: blue;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(19, 17, 17);
+}

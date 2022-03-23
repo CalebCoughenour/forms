@@ -12,8 +12,8 @@
     <h1>Pin-Pal Letters</h1>
     <form id="formOne">
       <div class="form-group">
-        <label for="usersName">Your Name</label>
-        <input id="usersName" class="form-control" type="text">
+        <label for="userName">Your Name</label>
+        <input id="userName" class="form-control" type="text">
       </div>
       <div class="form-group">
         <label for="petsName">Your Pet's Name</label>
@@ -23,15 +23,14 @@
         <label for="summerActivities">What did you do over the Summer?</label>
         <input id="summerActivities" class="form-control" type="text">
       </div>
-
       <button type="submit" class="btn">Send your letter :)</button>
-
-
-      
-      <div id="letter-received">
-        <h1>Dear <span class="usersName"></span></h1>
-      </div>
-
+    </form>
+    <div id="letter-received">
+      <h1>Dear <span class="userName"></span></h1>
+      <p>
+        I hope you have had a lot of fun over your summer! I was excited to hear about <span class="summerActivities"></span>! I hope you and <span class="petsName"></span> had a lot of time to spend together. <span class="petsName"></span> is such a good pet :)
+      </p>
+    </div>
   </div>
 </body>
 </html>
